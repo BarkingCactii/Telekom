@@ -1,0 +1,10 @@
+#define CMD_CMD1                                0x01000000  /* INPUT */ 
+#define CMD_CMD2                                0x02000000  /* INPUT */ 
+#define CMD_CMD3                                0x03000000  /* INPUT */ 
+#define CMD_CMD4                                0x04000000  /* INPUT */ 
+#define CMD_CMD5                                0x05000000  /* INPUT */ 
+#define CMD_CMD6                                0x06000000  /* INPUT */ 
+#define CMD_CMD7                                0x07000000  /* INPUT */ 
+#define CMD_CMD8                                0x08000000  /* INPUT */ 
+#define CMD_CMD9                                0x09000000  /* INPUT */ 
+#define CMD_CMD10                               0x0a000000  /* INPUT */ 

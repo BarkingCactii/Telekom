@@ -1,0 +1,91 @@
+
+0 0 0 0 0 0 64 29 0 0 0 0 0 0 86 24                                                                 
+Demand: 7 PCM                                                                                       
+Best System:                                                                                        
+Distance: 24.82 KM                                                                                  
+Cost: $0                                                                                            
+###                                                                                                 
+0 0 0 0 0 0 64 38 0 0 0 0 0 0 64 29                                                                 
+Demand: 4 PCM                                                                                       
+Best System:                                                                                        
+Distance: 9.9 KM                                                                                    
+Cost: $0                                                                                            
+###                                                                                                 
+0 0 0 0 0 0 64 38 0 0 0 0 0 0 86 24                                                                 
+Demand: 5 PCM                                                                                       
+Best System:                                                                                        
+Distance: 28.68 KM                                                                                  
+Cost: $0                                                                                            
+###                                                                                                 
+0 0 0 0 0 0 64 38 0 0 0 0 0 0 60 90                                                                 
+Demand: 5 PCM                                                                                       
+Best System:                                                                                        
+Distance: 57.37 KM                                                                                  
+Cost: $0                                                                                            
+###                                                                                                 
+0 0 0 0 0 0 64 38 0 0 0 0 0 0 95 71                                                                 
+Demand: 9 PCM                                                                                       
+Best System:                                                                                        
+Distance: 49.8 KM                                                                                   
+Cost: $0                                                                                            
+###                                                                                                 
+0 0 0 0 0 0 140 120 0 0 0 0 0 0 56 86                                                               
+Demand: 17 PCM                                                                                      
+Best System: 140FOC12                                                                               
+Distance: 99.68 KM                                                                                  
+Cost: $6629841.67                                                                                   
+###                                                                                                 
+0 0 0 0 0 0 140 120 0 0 0 0 0 0 91 70                                                               
+Demand: 9 PCM                                                                                       
+Best System: 140FOC12                                                                               
+Distance: 77.01 KM                                                                                  
+Cost: $5156208.33                                                                                   
+###                                                                                                 
+0 0 0 0 0 0 56 86 0 0 0 0 0 0 64 29                                                                 
+Demand: 7 PCM                                                                                       
+Best System:                                                                                        
+Distance: 63.31 KM                                                                                  
+Cost: $0                                                                                            
+###                                                                                                 
+0 0 0 0 0 0 56 86 0 0 0 0 0 0 86 24                                                                 
+Demand: 8 PCM                                                                                       
+Best System:                                                                                        
+Distance: 75.76 KM                                                                                  
+Cost: $0                                                                                            
+###                                                                                                 
+0 0 0 0 0 0 56 86 0 0 0 0 0 0 60 90                                                                 
+Demand: 5 PCM                                                                                       
+Best System:                                                                                        
+Distance: 6.22 KM                                                                                   
+Cost: $0                                                                                            
+###                                                                                                 
+0 0 0 0 0 0 56 86 0 0 0 0 0 0 18 45                                                                 
+Demand: 8 PCM                                                                                       
+Best System:                                                                                        
+Distance: 61.49 KM                                                                                  
+Cost: $0                                                                                            
+###                                                                                                 
+0 0 0 0 0 0 56 86 0 0 0 0 0 0 95 71                                                                 
+Demand: 9 PCM                                                                                       
+Best System:                                                                                        
+Distance: 45.96 KM                                                                                  
+Cost: $0                                                                                            
+###                                                                                                 
+0 0 0 0 0 0 56 86 0 0 0 0 0 0 91 70                                                                 
+Demand: 12 PCM                                                                                      
+Best System:                                                                                        
+Distance: 42.33 KM                                                                                  
+Cost: $0                                                                                            
+###                                                                                                 
+0 0 0 0 0 0 18 45 0 0 0 0 0 0 64 29                                                                 
+Demand: 8 PCM                                                                                       
+Best System:                                                                                        
+Distance: 53.57 KM                                                                                  
+Cost: $0                                                                                            
+###                                                                                                 
+0 0 0 0 0 0 18 45 0 0 0 0 0 0 86 24                                                                 
+Demand: 9 PCM                                                                                       
+Best System:                                                                                        
+Distance: 78.29 KM                                                                                  
+Cost: $0                                                                                            
+###                                                                                                 

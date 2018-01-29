@@ -1,0 +1,69 @@
+
+LIST OF EXCHANGES - HAVING SPARE CAPACITY                                                           
+REGION/STATE/PTT: TENGAH/-/-                                                                        
+###                                                                                                 
+8 0 0 0 0 0 0 140 120 JRC1AL0001 FUJITSU                                                            
+Expandable: Y                                                                                       
+Equipped Capacity: 3000                                                                             
+Working Capacity: 2169                                                                              
+Reserve Capacity: 450                                                                               
+Spare Capacity: 381                                                                                 
+Utilisation (%): 87                                                                                 
+###                                                                                                 
+1 0 0 0 0 0 0 18 45 SBS1AP0001 MARCONI                                                              
+Expandable: Y                                                                                       
+Equipped Capacity: 2000                                                                             
+Working Capacity: 1200                                                                              
+Reserve Capacity: 300                                                                               
+Spare Capacity: 500                                                                                 
+Utilisation (%): 75                                                                                 
+###                                                                                                 
+2 0 0 0 0 0 0 64 29 BAK1AP0001                                                                      
+Expandable: Y                                                                                       
+Equipped Capacity: 1000                                                                             
+Working Capacity: 350                                                                               
+Reserve Capacity: 150                                                                               
+Spare Capacity: 500                                                                                 
+Utilisation (%): 50                                                                                 
+###                                                                                                 
+3 0 0 0 0 0 0 64 38 BRK1AP0001                                                                      
+Expandable: Y                                                                                       
+Equipped Capacity: 10000                                                                            
+Working Capacity: 8944                                                                              
+Reserve Capacity: 1500                                                                              
+Spare Capacity: -444                                                                                
+Utilisation (%): 104                                                                                
+###                                                                                                 
+5 0 0 0 0 0 0 86 24 CRS1AP0001                                                                      
+Expandable: Y                                                                                       
+Equipped Capacity: 20000                                                                            
+Working Capacity: 8944                                                                              
+Reserve Capacity: 3000                                                                              
+Spare Capacity: 8056                                                                                
+Utilisation (%): 60                                                                                 
+###                                                                                                 
+6 0 0 0 0 0 0 60 90 LPS1AP0001                                                                      
+Expandable: Y                                                                                       
+Equipped Capacity: 9000                                                                             
+Working Capacity: 8604                                                                              
+Reserve Capacity: 1350                                                                              
+Spare Capacity: -954                                                                                
+Utilisation (%): 111                                                                                
+###                                                                                                 
+6 0 0 0 0 0 0 64 38 Jeff                                                                      
+Expandable: Y                                                                                       
+Equipped Capacity: 10000                                                                            
+Working Capacity: 8944                                                                              
+Reserve Capacity: 1500                                                                              
+Spare Capacity: -444                                                                                
+Utilisation (%): 104                                                                                
+###                                                                                                 
+2 0 0 0 0 0 0 60 90 Jeff2                                                                      
+Expandable: Y                                                                                       
+Equipped Capacity: 9000                                                                             
+Working Capacity: 8604                                                                              
+Reserve Capacity: 1350                                                                              
+Spare Capacity: -954                                                                                
+Utilisation (%): 111                                                                                
+###                                                                                                 
+

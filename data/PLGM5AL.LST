@@ -1,0 +1,53 @@
+
+LONG TERM TRANSMISSION CAPACITY PLANNING :-                                                         
+TARGET NETWORK                                                                                      
+REGION/STATE/PTT: TENGAH/-/-                                                                        
+TARGET YEAR: 2000                                                                                   
+NO OF LINKS: 15                                                                                     
+NETWORK COST: $26345666.67                                                                          
+###                                                                                                 
+0 0 0 0 0 0 100 100 Corner1                                                                              
+###                                                                                                 
+0 0 0 0 0 0 100 800 Corner2                                                                              
+###                                                                                                 
+0 0 0 0 0 0 800 800 Corner3                                                                              
+###                                                                                                 
+0 0 0 0 0 0 800 100 Corner4                                                                              
+###                                                                                                 
+0 0 0 0 0 0 86 24 Jeff                                                                              
+###                                                                                                 
+0 0 0 0 0 0 64 29 BAK1                                                                              
+###                                                                                                 
+0 0 0 0 0 0 64 38 BRK1                                                                              
+###                                                                                                 
+0 0 0 0 0 0 86 24 CRS1                                                                              
+###                                                                                                 
+0 0 0 0 0 0 140 120 JRC1                                                                            
+###                                                                                                 
+0 0 0 0 0 0 56 86 KLJ1                                                                              
+###                                                                                                 
+0 0 0 0 0 0 60 90 LPS1                                                                              
+###                                                                                                 
+0 0 0 0 0 0 18 45 SBS1                                                                              
+###                                                                                                 
+0 0 0 0 0 0 95 71 TG01                                                                              
+###                                                                                                 
+0 0 0 0 0 0 91 70 TRM1                                                                              
+###                                                                                                 
+2 23 30.15929 103 52 30.07195 0 0 AirportMersing     
+###                                                                                                 
+2 11 55.14224 102 15 31.01852 0 0 Melaka     
+###                                                                                                 
+0 0 0 0 0 0 653.236601 264.439934 AirportMersingRSO     
+###                                                                                                 
+0 0 0 0 0 0 473.466767 243.265965 Melaka     
+###                                                                                                 
+0 0 0 0 0 0 277.669 572.148 SeberangPrai     
+###                                                                                                 
+5 10 4.64 100 29 13.01 0 0 SeberangPraiLL     
+###                                                                                                 
+0 0 0 0 0 0 262.141 600.296 Georgetown
+###                                                                                                 
+5 25 18.79830 100 20 44.36987 0 0 GeorgetownLL
+###                                                                                                 
+

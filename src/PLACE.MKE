@@ -1,0 +1,123 @@
+#---------------------------------------------
+#       File place.mke 
+#---------------------------------------------
+MS = c:/win32app/ustation
+baseDir=c:/ustation/mdl/nips/
+objectDir=$(baseDir)obj/
+privateInc=$(baseDir)
+privateRscDir = $(baseDir)rsc/
+
+mlineObjs  =    $(objectDir)place.mo \
+                $(objectDir)plgm5aj.mo \
+                $(objectDir)plgm5ab.mo \
+                $(objectDir)plgm5aa.mo \
+                $(objectDir)plgm5ak.mo \
+                $(objectDir)plgm5ak2.mo \
+                $(objectDir)plgm5ai.mo \
+                $(objectDir)plgm5ai2.mo \
+                $(objectDir)plgm5al.mo \
+                $(objectDir)plgm5al2.mo \
+                $(objectDir)util.mo \
+                $(objectDir)coord.mo \
+                $(objectDir)cell.mo \
+                $(objectDir)llist.mo \
+                $(objectDir)details.mo \
+                $(objectDir)sort.mo \
+                $(objectDir)display.mo \
+                $(objectDir)fileio.mo \
+                $(mdlLibs)mdllib.ml \
+                $(mdlLibs)ditemlib.ml
+
+mlineRscs  = $(objectDir)place.rsc \
+             $(objectDir)details.rsc \
+             $(objectDir)display.rsc \
+             $(objectDir)datatype.rsc \
+             $(obj)dlogdcmd.rsc \
+             $(privateRscDir)icons.rsc \
+             $(objectDir)place.mp 
+
+%ifdef BSI
+%include $(MS)/include/publish/mdl.mki
+%else
+%include $(MS)/mdl/include/mdl.mki
+%endif
+
+#---------------------------------------------
+#       Compile Dialog Resources
+#---------------------------------------------
+$(objectDir)place.rsc           : $(privateRscDir)place.r
+
+$(objectDir)details.rsc         : $(privateRscDir)details.r
+
+$(objectDir)display.rsc         : $(privateRscDir)display.r
+
+$(objectDir)datatype.r          : $(privateRscDir)datatype.mt $(baseDir)dlogdids.h
+
+$(objectDir)datatype.rsc        : $(objectDir)datatype.r $(baseDir)dlogdids.h
+
+$(objectDir)icons.rsc           : $(privateRscDir)icons.r
+
+$(baseDir)dlogdcmd.h            : $(privateRscDir)dlogdcmd.r
+
+$(objectDir)dlogdcmd.rsc        : $(privateRscDir)dlogdcmd.r 
+
+$(objectDir)place.mo            : $(baseDir)place.mc $(baseDir)dlogdids.h
+
+$(objectDir)plgm5aa.mo          : $(baseDir)plgm5aa.mc $(baseDir)plgm5aa.h
+
+$(objectDir)plgm5ab.mo          : $(baseDir)plgm5ab.mc $(baseDir)plgm5ab.h
+
+$(objectDir)plgm5aj.mo          : $(baseDir)plgm5aj.mc $(baseDir)plgm5aj.h
+
+$(objectDir)plgm5ai.mo          : $(baseDir)plgm5ai.mc $(baseDir)plgm5ai.h
+
+$(objectDir)plgm5ai2.mo         : $(baseDir)plgm5ai2.mc $(baseDir)plgm5ai2.h
+
+$(objectDir)plgm5ak.mo          : $(baseDir)plgm5ak.mc $(baseDir)plgm5ak.h
+
+$(objectDir)plgm5ak2.mo         : $(baseDir)plgm5ak2.mc $(baseDir)plgm5ak2.h
+
+$(objectDir)plgm5al.mo          : $(baseDir)plgm5al.mc $(baseDir)plgm5al.h
+
+$(objectDir)plgm5al2.mo         : $(baseDir)plgm5al2.mc $(baseDir)plgm5al2.h
+
+$(objectDir)util.mo             : $(baseDir)util.mc $(baseDir)util.h
+
+$(objectDir)coord.mo            : $(baseDir)coord.mc $(baseDir)coord.h
+
+$(objectDir)cell.mo             : $(baseDir)cell.mc $(baseDir)cell.h
+
+$(objectDir)llist.mo            : $(baseDir)llist.mc $(baseDir)llist.h
+
+$(objectDir)details.mo          : $(baseDir)details.mc $(baseDir)details.h
+
+$(objectDir)sort.mo             : $(baseDir)sort.mc $(baseDir)sort.h
+
+$(objectDir)display.mo          : $(baseDir)display.mc $(baseDir)display.h
+
+$(objectDir)fileio.mo           : $(baseDir)fileio.mc $(baseDir)fileio.h
+
+$(objectDir)place.mp            : $(mlineObjs) $(baseDir)dlogdids.h
+	$(msg)
+	> $(objectDir)temp.cmd
+	-a$@
+	-s6000
+	$(linkOpts)
+	$(mlineObjs)
+	<
+	$(linkCmd) @$(objectDir)temp.cmd
+	~time
+
+$(MS)/mdlapps/place.ma            : $(mlineRscs)
+	$(msg)
+	> $(objectDir)temp.cmd
+	-o$@
+	$(mlineRscs)
+	<
+	$(rscLibCmd) @$(objectDir)temp.cmd
+	~time
+#---------------------------------------------
+#       End of place.mke
+#---------------------------------------------
+
+

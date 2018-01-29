@@ -1,0 +1,25 @@
+Work Schedule for Jeff Hill as at 9/7/96
+----------------------------------------
+
+Currently working on changes to program as advised by Telekom
+during last demonstation.
+
+This involves writing many common utility functions used by all
+6 functions of the program. Hence when 1 function is working, about
+80% of the coding for the rest of the functions is already done.
+
+Should have this 1 function ready for demo 9/7/96 - 10/7/96. Only one
+part remains to be done; turning off and on the text on the display screen.
+
+I would guess about 3 days to complete the other 5 functions provided
+Telekom are satisfied with the changes they requested. 
+
+Following this, programming documentation as requested by Khor will take 
+about 1 week. During this time, some actual data in quantity would
+be needed to test the programs performance and reliability with the large
+memory requirments expected with this amount of data.
+
+I would expect to complete all of the above before my time here expires.
+At the worst case, the documentation side would be incomplete, as this will 
+be done last.
+

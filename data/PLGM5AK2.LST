@@ -1,0 +1,37 @@
+
+0 0 0 0 0 0 64 38 0 0 0 0 0 0 18 45                                                                 
+Demand: 5 PCM                                                                                       
+Evaluation: $0                                                                                      
+Cost: $0                                                                                            
+###                                                                                                 
+0 0 0 0 0 0 64 38 0 0 0 0 0 0 91 70                                                                 
+Demand: 9 PCM                                                                                       
+Evaluation: $0                                                                                      
+Cost: $3807650                                                                                      
+###                                                                                                 
+0 0 0 0 0 0 140 120 0 0 0 0 0 0 64 38                                                               
+Demand: 14 PCM                                                                                      
+Evaluation: $0                                                                                      
+Cost: $10751966.67                                                                                  
+###                                                                                                 
+0 0 0 0 0 0 100 120 0 0 0 0 0 0 150 120                                                               
+Demand: 14 PCM                                                                                      
+Evaluation: $0                                                                                      
+Cost: $10751966.67                                                                                  
+###                                                                                                 
+0 0 0 0 0 0 150 120 0 0 0 0 0 0 100 120                                                               
+Demand: 14 Jeff                                                                                      
+Evaluation: $0                                                                                      
+Cost: $10751966.67                                                                                  
+###                                                                                                 
+0 0 0 0 0 0 100 120 0 0 0 0 0 0 100 150                                                               
+Demand: 14 PCM                                                                                      
+Evaluation: $0                                                                                      
+Cost: $10751966.67                                                                                  
+###                                                                                                 
+0 0 0 0 0 0 100 150 0 0 0 0 0 0 100 120                                                               
+Demand: 14 Jeff                                                                                      
+Evaluation: $0                                                                                      
+Cost: $10751966.67                                                                                  
+###                                                                                                 
+
